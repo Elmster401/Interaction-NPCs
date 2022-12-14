@@ -1,4 +1,4 @@
-critical_npcs = critical_npcs or {}
+interaction_npcs = interaction_npcs or {}
 
 AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")

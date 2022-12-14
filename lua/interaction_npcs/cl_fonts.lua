@@ -1,4 +1,4 @@
-critical_npcs = critical_npcs or {}
+interaction_npcs = interaction_npcs or {}
 
 surface.CreateFont("npc_title", {
 	font = "Nexa Bold",

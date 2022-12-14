@@ -1,6 +1,6 @@
-critical_npcs = critical_npcs or {}
+interaction_npcs = interaction_npcs or {}
 
-function critical_npcs:DrawOutlinedBox(x, y, w, h, thickness, clr)
+function interaction_npcs:DrawOutlinedBox(x, y, w, h, thickness, clr)
 	surface.SetDrawColor(clr)
 
 	for i = 0, thickness - 1 do

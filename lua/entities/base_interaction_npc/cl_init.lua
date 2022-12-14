@@ -1,4 +1,4 @@
-critical_npcs = critical_npcs or {}
+interaction_npcs = interaction_npcs or {}
 
 include("shared.lua")
 
@@ -23,7 +23,7 @@ function ENT:Draw()
 		draw.RoundedBox(0, -width/2, -height/2, width, height, color_black)
 		draw.SimpleText(self.PrintName, "npc_title", 0, 0, color_white, TEXT_ALIGN_CENTER,
 			TEXT_ALIGN_CENTER)
-		critical_npcs:DrawOutlinedBox(-width/2, -height/2, width, height, 4, color_white)
+		interaction_npcs:DrawOutlinedBox(-width/2, -height/2, width, height, 4, color_white)
 		cam.End3D2D()
 	end
 end
