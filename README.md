@@ -1,6 +1,6 @@
 # Interaction-NPCs
 
-Creates an NPC with title hovering over its head.\
+Creates an NPC with a title hovering over its head.\
 The title is the same as its name in the spawnmenu.
 
 ## New NPC
