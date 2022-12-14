@@ -32,6 +32,7 @@ end
 function ENT:AcceptInput(inputName, activator, caller, data)
 	if inputName == "Use" and IsValid(activator) and activator:IsPlayer() and activator:Alive() then
 		activator:RunBehavior()
+		activator:SendLua([[LocalPlayer():RunBehavior()]])
 	end
 end
 
