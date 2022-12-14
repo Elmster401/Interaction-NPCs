@@ -31,7 +31,7 @@ end
 
 function ENT:AcceptInput(inputName, activator, caller, data)
 	if inputName == "Use" and IsValid(activator) and activator:IsPlayer() and activator:Alive() then
-		self:RunBehavior(activator)
+		activator:RunBehavior()
 	end
 end
 

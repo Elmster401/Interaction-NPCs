@@ -7,6 +7,8 @@ ENT.Spawnable = false
 
 ENT.Model = "models/Humans/Group01/male_09.mdl"
 
-function ENT:RunBehavior(ply)
-	ply:ChatPrint("Hello There!")
+local meta = FindMetaTable("Player")
+
+function meta:RunBehavior()
+	self:ChatPrint("Hello There!")
 end
