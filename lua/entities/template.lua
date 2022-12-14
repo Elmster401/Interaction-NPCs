@@ -1,11 +1,11 @@
 AddCSLuaFile()
-
 ENT.Base = "base_interaction_npc"
-ENT.Spawnable = true
-ENT.PrintName = "Trainer"
-ENT.Category = "Critical Networks"
 
-ENT.Model = "models/gman_high.mdl"
+ENT.PrintName = "Template"
+ENT.Category = "Critical Networks"
+ENT.Spawnable = false
+
+ENT.Model = "models/Humans/Group01/male_09.mdl"
 
 function ENT:RunBehavior(ply)
 	ply:ChatPrint("Hello There!")
